@@ -1,0 +1,23 @@
+#scroll_up, #scroll_dn {
+  position: fixed;
+  right: 5px;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  display: none;
+  z-index: 999;
+  background:  #026CB1 url('../img/sc_arrow.png') center no-repeat;
+}
+
+#scroll_up {
+    bottom: 50px;
+}
+
+#scroll_dn {
+    bottom: 10px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
